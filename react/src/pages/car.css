@@ -1,0 +1,106 @@
+.car-container{
+    padding:0 110px;
+
+    padding-top: 30px;
+    margin:30px
+}
+.car-card{
+    display: flex;
+    box-shadow: 0px 0px 5px 1px rgba(159, 159, 159, 0.75);
+-webkit-box-shadow: 0px 0px 5px 1px rgba(136, 136, 136, 0.75);
+-moz-box-shadow: 0px 0px 5px 1px rgba(214, 214, 214, 0.75);
+border-radius: 15px;
+}
+.car-card img{
+    width: 50%;
+    border-top-left-radius: 15px; 
+    border-bottom-left-radius: 15px;
+    object-fit: cover;
+}
+.car-infos{
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width:50%
+}
+.car-infos .date{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+.car-infos .date span{
+    font-weight: 500;
+    color: rgb(97, 97, 97);
+    margin:10px 0
+}
+.car-infos .date input{
+    width: 95%;
+    height:35px;
+    padding: 0 3%;
+    color: rgb(96, 96, 96);
+    border: 1px solid rgb(212, 212, 212);
+    font-weight: 500;
+    font-size: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.general-infos{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    border-top: 1px rgb(173, 173, 173) solid;
+    border-bottom: 1px rgb(173, 173, 173) solid;
+    margin-top: 17px;
+}
+.general-infos .info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:15px 0;
+}
+.general-infos .info span{
+    font-weight: 500;
+    color:rgb(58, 58, 58)
+}
+.general-infos .info span:first-child {
+    color: grey;
+}
+.car-infos .price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:15px 0;
+    font-weight:500;
+    width:80%;
+}
+.car-infos .price span{
+    color: rgb(86, 86, 86);
+}
+.price-dh{
+    font-size: 22px;
+}
+.car-infos button {
+    width: 80%;
+    height:35px;
+    border: none;
+    font-weight: 500;
+    font-size: 15px;
+    background-color: rgb(237,242,247);
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.car-infos button:hover{
+    cursor: pointer;
+    background-color: rgb(230, 230, 230);
+}
+.car-infos .error{
+    color:red;
+    align-self: flex-start;
+    margin-left: 50px;
+    padding:5px;
+}

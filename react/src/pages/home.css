@@ -1,0 +1,51 @@
+.home{
+}
+.home-content{
+    padding:0 110px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 95px;
+    gap:65px;
+}
+
+.home-text{
+    width:35%
+}
+.home-text button{
+    width:70%;
+    height: 50px;
+    background-color: rgb(252, 134, 0);
+    color:rgb(247, 247, 247);
+    border-radius: 50px;
+    border: none;
+    box-shadow: 3px 2px 9px 2px rgba(0,0,0,0.15);
+-webkit-box-shadow: 3px 2px 9px 2px rgba(0,0,0,0.15);
+-moz-box-shadow: 3px 2px 9px 2px rgba(0,0,0,0.15);
+}
+.home-text button:hover{
+    cursor: pointer;
+    background-color: rgb(253, 147, 26);
+}
+.big-text{
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color:rgb(48, 48, 48)
+
+}
+.small-text{
+    font-size: 15px;
+    margin-top: 20px;
+    color:rgb(60, 60, 60)
+}
+.orange-text{
+    color:rgb(252, 134, 0)
+}
+.home-image{
+    width: 45%;
+}
+.home-image img{
+    width:100%;
+}

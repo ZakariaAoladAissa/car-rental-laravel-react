@@ -1,0 +1,35 @@
+.footer-container{
+    background-color: rgb(226,232,240);
+
+}
+.site-infos{
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    height:120px;
+    width: 10%;
+    margin:0 35px;
+    font-size: 14px;
+    color: rgb(102, 102, 102);
+}
+.about span{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    color: rgb(91, 91, 91);
+}
+.about  a {
+    margin: 5px 0
+}
+.copyright{
+    border-top: 1px rgb(201, 201, 201) solid;
+    margin-top: 45px;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 14px;
+    color: grey;
+}

@@ -1,0 +1,9 @@
+.notification-container{
+    background-color: rgb(1, 132, 8);
+    padding:11px 12px;
+    margin-bottom: 25px;
+    width: 200px;
+    color:white;
+    font-weight:500;
+    font-size: 17px;
+}

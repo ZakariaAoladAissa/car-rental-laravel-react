@@ -1,0 +1,88 @@
+.clients-container{
+    padding:0 110px;
+
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height:500px;
+}
+.clients-cards{
+    display: flex;
+}
+.client-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.client-text{
+    box-shadow: 3px 2px 9px 2px rgba(0,0,0,0.15);
+    -webkit-box-shadow: 3px 2px 9px 2px rgba(0,0,0,0.15);
+    -moz-box-shadow: 3px 2px 9px 2px rgba(0,0,0,0.15);
+        /* (A1) FONT & COLORS */
+        font-size: 1.2em;
+      
+        /* (A2) DIMENSIONS */
+        padding: 20px;
+        border-radius: 10px;
+        width: 70%;
+        font-weight: 500;
+        text-align: center;
+}
+.client-text span{
+    font-weight: 400;
+    font-size: 14px;
+    color: rgb(132, 132, 132);
+}
+.client-text::after {
+    display: block; width: 0; content: "";
+    border: 15px solid transparent;
+  }
+.client-text.down::after {
+    border-bottom: 0;
+
+  }
+  .client-text {
+    position: relative;
+    margin: 30px;
+  }
+  .client-text::after { position: absolute; }
+
+  .client-text.down::after {
+    bottom: -15px; left: calc(50% - 15px);
+  }
+  .clients-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .clients-info{
+    font-weight: 600;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(33, 33, 33);
+}
+.clients-info span{
+    font-size: 14px;
+    font-weight: 300;
+    color: rgb(81, 81, 81);
+    text-align: center;
+}
+.client-img{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(134, 134, 134);
+    color:white;
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-bottom: 8px;
+}
